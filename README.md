@@ -1,47 +1,33 @@
-# Electron React Webpack TypeScript Boilerplate
+# Meleon
 
-Boilerplate for Electron + React + Webpack + TypeScript.
+Fast Note for Everyone.
 
 ## Features
 
-This boilerplate has already set up for following packages.
+## Installation
 
-- React
-- React Router
-- React Hot Loader
-- Redux
-- Redux Toolkit
-- TypeScript
-- Electron
-- Webpack
-- ESLint
-- Prettier
-- stylelint
-- Styled Components
+## Contributing
 
-## Getting Started
+Please open issues and pull requests for new features, questions, and bug fixes.
 
-There are 2 ways.
+### Requirements
 
-- On GitHub, click "_Use this template_" button to fork from master branch.
+- `node v12.13.0`
+- `yarn v1.22.4`
 
-![template_button](https://github.com/tighug/electron-react-webpack-ts-boilerplate/blob/assets/images/template_button.png?raw=true)
-
-- Or clone this repository with following command.
+### Get Started
 
 ```bash
-git clone --depth=1 -b master https://github.com/tighug/electron-react-webpack-ts-boilerplate.git [your project name]
-cd [your project name]
+# 1. Clone this repository
+git clone https://github.com/tighug/meleon.git
+
+# 2. Install dependencies
 yarn
-```
 
-## Usage
-
-```bash
-# Development
+# 3. Serve app with hot reload
 yarn dev
 
-# Packaging for Pruduction
+# Package for production
 yarn package
 ```
 
