@@ -12,6 +12,11 @@ async function createWindow() {
     webPreferences: {
       nodeIntegration: true,
     },
+    show: false,
+  });
+
+  win.once("ready-to-show", () => {
+    win.show();
   });
 
   if (process.env.NODE_ENV === "development") {
